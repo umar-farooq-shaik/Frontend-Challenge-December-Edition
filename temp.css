@@ -1,22 +1,20 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
 
-/* Smooth scrolling and padding for sticky headers */
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 95px;
+        scroll-behavior: smooth;
+        scroll-padding-top: 95px; 
+    
 }
 
-/* General body styles */
-body {
-    margin: 0;
+
+body{
+    margin:0;
     font-family: 'Arial', sans-serif;
     background-color: white;
     overflow-x: hidden;
     box-sizing: border-box;
     line-height: 1.5715;
 }
-
 /* Header Styles */
 #main-header {
     background: #013e80;
@@ -26,67 +24,62 @@ body {
     padding: 10px;
     z-index: 1000;
 }
-
-#main-nav ul {
+#main-nav ul{
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 30px
 }
 
-
-#main-nav ul li a {
-    text-decoration: none;
-    font-family: "Poppins", Arial, sans-serif;
-    color: white;
-    font-size: 0.75rem;
-    font-weight: 400;
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-#main-nav ul li a:hover {
-    transform: scale(1.1);
-}
-
-/* Responsive navigation menu for smaller screens */
 @media (max-width: 768px) {
     #main-nav ul {
         flex-direction: column;
         gap: 10px;
     }
-    #main-nav ul li a {
-        font-size: 0.6rem;
-    }
 }
 
-/* Main header title */
-h1 {
+#main-nav ul li a{
+    text-decoration: none;
+    font-family: "Poppins", Arial, sans-serif;
+    color:white;
+    font-size:0.75rem;
+    font-weight: 400;
+    display: inline-block;  
+    transition: transform 0.3s ease;
+}
+#main-nav ul li a:hover{
+    transform: scale(1.1);  
+}
+
+
+h1{
     padding-top: 200px;
     font-size: 4.5rem;
     font-weight: 100;
     font-family: "Righteous", cursive, sans-serif;
     margin: 0;
     color: white;
+    
     text-align: center;
     background: #013e80;
 }
 
-/* Responsive title styles */
 @media (max-width: 480px) {
+    #main-nav ul li a {
+        font-size: 0.6rem;
+    }
     h1 {
         font-size: 2.5rem;
     }
 }
 
-/* General image styling */
+
 img {
     vertical-align: middle;
 }
 
-/* Animated image 1 (rotating) */
-#img1 {
+#img1{
     position: absolute;
     width: 16rem;
     top: 90px;
@@ -94,7 +87,6 @@ img {
     animation: spin 10s linear infinite;
 }
 
-/* Rotation animation for image */
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -103,49 +95,33 @@ img {
         transform: rotate(360deg);
     }
 }
-
-/* Positioning image 2 */
-#img2 {
+#img2{
     width: 24rem;
     top: 125px;
     right: -10px;
-    position: absolute;
+    position:absolute;
+    }
+
+@media (max-width: 768px) {
+    #img2{
+        width: 12rem;
+        top: -2rem;
+    }
 }
-/* Positining image 3 */
 #img3{
     background-color: #013e80;
     width:100vw;
     height: auto;
 }
-/* Animated image 4 */
-#img4 {
+
+#img4{
     animation: spin 10s linear infinite;
     width: 2.5rem;
     top: 16rem;
     right: 24rem;
     position: absolute;
 }
-
-/* Responsive image 2 */
-@media (max-width: 768px) {
-    #img2 {
-        width: 12rem;
-        top: -2rem;
-    }
-}
-
-
-/* Rotation animation for image */
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-/* Section styling */
+/* Section Styling */
 section {
     padding: 20px;
     max-width: 800px;
@@ -155,41 +131,35 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Section hover effect */
-section:hover {
+ section:hover {
     transform: scale(1.05);
 }
 
-/* Section heading styles */
 h2 {
     color: black;
     border-bottom: 2px solid #013e80;
     padding-bottom: 10px;
 }
-
-/* Responsive section styles */
 @media (max-width: 480px) {
     section {
-        max-width: 90%;
-        padding: 15px;
+        max-width: 90%; /* Reduce width */
+        padding: 15px; /* Adjust padding */
     }
 }
 
-/* Footer styling */
+
 footer {
     background-color: #013e80;
-    padding: 20px;
+    padding:20px 20px;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the content */
     align-items: center;
     font-size: 0.9rem;
 }
-
-footer p {
+footer p{
     margin-right: 30px;
 }
-
 #footer-nav ul {
     display: flex;
     justify-content: center;
@@ -199,44 +169,37 @@ footer p {
     padding: 0;
 }
 
-#footer-nav a {
-    color: white;
-    text-decoration: none;
+#footer-nav a{
+    color:white;
+    text-decoration: none;  
     transition: transform 0.3s ease;
+    
 }
-
 #footer-nav a:hover {
-    transform: scale(1.1);
-    color: rgb(140, 182, 229);
+    transform: scale(1.1); 
+      color: rgb(140, 182, 229);
 }
 
-@media (max-width: 480px) {
-    footer {
-        font-size: 0.8rem;
-    }
-    footer p {
-        margin-right: 10px;
-    }
-}
-/* Snowflake Animation */
-.snowflake, .snow-circle {
+
+.snowflake {
     position: absolute;
     top: 0px;
     z-index: 1500;
+    font-size: 3rem;
+    color: rgb(114, 159, 207);
+    animation: snow 5s linear infinite;
+}
+.snow-circle {
+    position: absolute;
+    top: 0px;
+    z-index: 1500;
+    border-radius: 50%;
+    background-color: rgb(114, 159, 207);
     animation: snow 5s linear infinite;
 }
 
-.snowflake {
-    font-size: 3rem;
-    color: rgb(114, 159, 207);
-}
 
-.snow-circle {
-    border-radius: 50%;
-    background-color: rgb(114, 159, 207);
-}
 
-/* Snow animation */
 @keyframes snow {
     0% {
         transform: translateX(0) translateY(0);
@@ -246,9 +209,14 @@ footer p {
     }
 }
 
-/* Responsive snowflake and footer styles */
 @media (max-width: 480px) {
     .snowflake {
         font-size: 1.5rem;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+    footer p{
+        margin-right: 10px;
     }
 }
