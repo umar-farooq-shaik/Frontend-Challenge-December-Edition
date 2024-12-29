@@ -166,7 +166,7 @@ h2 {
 /* Responsive section styles */
 @media (max-width: 480px) {
     section {
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         max-width: 80%;
         padding: 20px 50px;
     }
