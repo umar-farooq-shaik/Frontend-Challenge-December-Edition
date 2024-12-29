@@ -10,7 +10,7 @@ html {
 /* General body styles */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: "Poppins", 'Arial', sans-serif;
     background-color: white;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -147,7 +147,7 @@ img {
 
 /* Section styling */
 section {
-    padding: 20px;
+    padding: 20px 40px;
     max-width: 800px;
     border-radius: 10px;
     margin: 30px auto;
@@ -166,9 +166,9 @@ h2 {
 /* Responsive section styles */
 @media (max-width: 480px) {
     section {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         max-width: 80%;
-        padding: 20px;
+        padding: 20px 40px;
     }
 }
 
