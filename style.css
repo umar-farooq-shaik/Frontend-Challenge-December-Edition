@@ -10,10 +10,11 @@ html {
 /* General body styles */
 body {
     margin: 0;
-    font-family: "Poppins", 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: white;
     overflow-x: hidden;
     box-sizing: border-box;
+    line-height: 1.5715;
 }
 
 /* Header Styles */
@@ -146,12 +147,13 @@ img {
 
 /* Section styling */
 section {
-    padding: 20px 40px;
+    padding: 20px;
     max-width: 800px;
     border-radius: 10px;
     margin: 30px auto;
     box-shadow: 0px 4px 15px #013e80;
 }
+
 
 
 
@@ -165,9 +167,8 @@ h2 {
 /* Responsive section styles */
 @media (max-width: 480px) {
     section {
-        font-size: 0.2rem;
         max-width: 80%;
-        padding: 20px 50px;
+        padding: 15px;
     }
 }
 
