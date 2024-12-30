@@ -165,12 +165,24 @@ h2 {
 @media (max-width: 480px) {
     section {
         padding: 15px;
+        font-size: 0.8rem;
+        line-height: 1.4;
         
     }
-    section p{
-        font-size: 1.2rem;
+}
+/* Add padding for section cards on mobile screens */
+@media (max-width: 768px) {
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    article {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
+
 
 /* Footer styling */
 footer {
