@@ -28,3 +28,10 @@ Welcome to the Frontend Challenge repository! This project is aimed at improving
 - **CSS3**: Advanced styling, animations, and responsive design.
 - **JavaScript**: (Optional) Script file included for potential interactive features.
 
+
+---
+## Live Demo
+<video width="600" controls>
+  <source src="./demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
