@@ -205,11 +205,9 @@ footer p {
 #footer-nav a {
     color: white;
     text-decoration: none;
-    transition: transform 0.3s ease;
 }
 
 #footer-nav a:hover {
-    transform: scale(1.1);
     color: rgb(140, 182, 229);
 }
 
