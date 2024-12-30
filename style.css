@@ -147,7 +147,7 @@ img {
 
 /* Section styling */
 section {
-    padding: 20px 40px;
+    padding: 20px;
     max-width: 800px;
     border-radius: 20px;
     margin: 30px auto;
@@ -167,8 +167,8 @@ h2 {
 /* Responsive section styles */
 @media (max-width: 480px) {
     section {
-        padding: 15px;
-
+        padding: 20px 40px;
+        font-size: 75%;
     }
 }
 
