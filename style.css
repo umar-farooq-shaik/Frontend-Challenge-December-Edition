@@ -164,25 +164,16 @@ h2 {
 /* Responsive section styles */
 @media (max-width: 480px) {
     section {
-        padding: 15px;
-        font-size: 0.8rem;
+        padding: 15px 20px;
+        font-size: 0.4rem;
         line-height: 1.4;
         
     }
+        article {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
 }
-/* Add padding for section cards on mobile screens */
-@media (max-width: 768px) {
-    section {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    article {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
 
 /* Footer styling */
 footer {
