@@ -5,7 +5,8 @@ Welcome to the Frontend Challenge repository! This project is aimed at improving
 ---
 
 ## Key Features
-- **Modern Design**: 
+- **Modern Design**:
+  - Winter themed background
   - Smooth scrolling experience for effortless navigation.
   - Animated visuals, including spinning images and fade-in ext.
   - Fully responsive design tailored for both desktop and mobile users.
