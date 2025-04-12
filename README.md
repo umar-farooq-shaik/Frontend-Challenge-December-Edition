@@ -1,6 +1,6 @@
 # Frontend-Challenge-December-Edition
 
-![December Banner](https://drive.google.com/file/d/1LIbymYpvMqQpsMsAN55CJ2hGSfgNb-Vs/view?usp=sharing)
+![December Banner](https://drive.google.com/uc?export=view&id=1LIbymYpvMqQpsMsAN55CJ2hGSfgNb-Vs)
 
 Welcome to the Frontend Challenge repository! This project is aimed at improving front-end development skills, focusing on HTML, CSS, and JavaScript. It is a visually rich and educational website showcasing the significance, science, and global traditions of the Winter Solstice. The site highlights the cultural diversity and astronomical importance of this event, with detailed sections on solstice science, hemispherical differences, global celebrations, and common traditions.
 
